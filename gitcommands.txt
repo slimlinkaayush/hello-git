@@ -1,0 +1,17 @@
+1.git commit -a -m "My commit"
+---Commit all edited files and add a message
+
+2.git add -A
+---Add all new files
+
+3.git clone URL
+---clone a file
+
+4.git init
+---Initializes a git repository – creates the initial .git directory in a new or in an existing project
+
+5.git status
+---Shows you the status of files in the index versus the working directory. It will list out files that are untracked (only in your working directory), modified (tracked but not yet updated in your index), and staged (added to your index and ready for committing)
+
+6.git push origin master
+---Pushes all the modified local objects to the remote repository and advances its branches
